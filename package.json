@@ -4,12 +4,13 @@
   "description": "Memory efficient and synchronous downloader of map tiles. Allows for a fast and easy approach to make map tiles (from a WMS) available offline.",
   "main": "index.js",
   "bin": {
-    "mtc" : "./index.js"
+    "mtc" : "./bin/mtc.js"
   },
     "bugs" : {
       "url" : "https://github.com/beyondit/map-tiles-crawler/issues"
   },
   "scripts": {
+    "start": "node ./bin/mtc.js",
     "test": "jasmine ./tests/index.js"
   },
   "author": "Stefan Huber <stefan.huber@beyondit.at> (http://www.beyondit.at)",

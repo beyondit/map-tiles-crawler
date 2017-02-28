@@ -2,6 +2,12 @@
 
 Memory efficient and synchronous downloader of map tiles. Allows for a fast and easy approach to make map tiles (from a WMS) available offline.
 
+## Install
+
+```
+npm i map-tiles-crawler (-g for global install)
+```
+
 ## Usage from CLI
 
 ```
@@ -43,3 +49,7 @@ crawler.crawl({
 | progress | callback after each tile download |
 | success | callback after all tiles were downloaded successfully |
 | error | callback after a error happened |
+
+## Contact and support
+
+Web: [www.beyondit.at](http://www.beyondit.at)
